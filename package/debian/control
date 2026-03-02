@@ -1,0 +1,13 @@
+Source: mypackage
+Section: misc
+Priority: optional
+Maintainer: Your Name <you@example.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: http://example.com
+
+Package: mypackage
+Architecture: all
+Depends: ${misc:Depends}
+Description: Brief description of my package
+ This is a longer description of my package, meant to provide more details to the users.
